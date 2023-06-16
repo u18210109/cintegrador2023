@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Agregar los archivos CSS y JavaScript de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    
+    <!-- Archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    
+    </script>
+</head>
+<body>
+    <nav class="menu">
+  <ul>
+    <li><img src="images/logo.png" alt="Logo"></li>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="vuelos.html">Vuelos</a></li>
+    <li><a href="hoteles.html">Hoteles</a></li>
+    <li><a href="rentcar.html">RenCar</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+
+<div class="formcontact" style="height: 600px">
+    
+    
+    
+<form class="formcon" action="enviar.php" method="POST">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="telefono">Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono" required>
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" required></textarea>
+
+  <input class="enviar" type="submit" value="Enviar">
+</form>
+
+
+    
+    
+</div>
+
+<!--Agreamos el footer-->
+<footer class="footer">
+ 
+ <div class="containerf">
+    
+    <div class="footer-row">
+        
+        <div class="footer-links">
+            <h4>Nosotros</h4>
+      <ul>
+        <li><a href="#">Quiénes somos</a></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Misión y visión</a></li>
+        <li><a href="#">Nuestro equipo</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#">Vuelos</a></li>
+        <li><a href="#">Hoteles</a></li>
+        <li><a href="#">Renta de autos</a></li>
+        <li><a href="#">Paquetes turísticos</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="#">Sucursales</a></li>
+        <li><a href="#">Atención al cliente</a></li>
+        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="#">Formulario de contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Políticas</h4>
+      <ul>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de cookies</a></li>
+        <li><a href="#">Mapa del sitio</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Información</h4>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Testimonios</a></li>
+        <li><a href="#">Galería de fotos</a></li>
+      </ul>            
+     </div>
+    <div class="footer-links">
+      <h4>Síguenos</h4>
+      <div class="social-link">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>          
+      </div>
+    </div>
+        
+    </div>
+     
+ </div>
+</footer>
+
+</body>
+</html>

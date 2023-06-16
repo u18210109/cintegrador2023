@@ -1,0 +1,262 @@
+/*Egregamos el estilo a la barra de menú*/
+.menu {
+  background-color: #343232;
+  color: #fff;
+  display: flex;
+  justify-content: center; /* Alinear a la derecha */
+  height: 100px; /* Nueva altura */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center; /* Centrar verticalmente */
+}
+
+.menu li {
+  margin-right: 30px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px; /* Nuevo tamaño de fuente */
+  line-height: 30px; /* Centrar verticalmente */
+  font-size: 25px; /* Nuevo tamaño de fuente */
+}
+
+.menu a:hover {
+  background-color: #ada8a8;
+  color: #333;
+}
+
+  nav.menu ul li a:hover {
+    text-decoration: none;
+  }
+
+
+/*Egregamos el estilo al carrusel de fotos*/
+.carousel-container {
+  margin-top: 100px;
+
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 800px;
+}
+
+
+/*Egregamos el estilo al bloque de Misión Visión*/
+.mision-vision-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 50px;
+  background-color: #f4f2df;
+  text-align: left;
+  padding: 2% 6%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+
+}
+
+.mission-container,
+.vision-container {
+  margin-bottom: 50px;
+}
+
+.mision-vision-container h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.mision-vision-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+  margin-top: 20px;
+}
+
+
+/*Egregamos el estilo a la sección de noticias*/
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.news-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.news-col {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #D1FAE5;
+}
+
+.news-col img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.news-col h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.news-col p {
+font-size: 16px;
+color: #555;
+margin-top: 10px;
+}
+/*
+@media (max-width: 768px) {
+.news-col {
+width: 100%;
+margin-bottom: 30px;
+}*/
+
+    
+/*Egregamos el estilo al footer*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    .containerf {
+        max-width: 100%;
+        padding: 40px 0;
+        margin-left: 2%;
+    }
+    
+    .footer {
+        background-color: #24262B;
+        padding: 20px;
+    }
+    
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer-links {
+        width: 16%;
+        padding: 0 20px;
+        
+    }
+    
+    .footer-links h4 {
+        font-size: 30px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+        font-weight: 500;
+        border-bottom: 2px solid #00C3FF;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+    
+    .footer-links ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #BBBBBB;
+        display: block;
+        margin-bottom: 10px;
+        transition: all .3s ease;
+    }
+    
+    .footer-links ul li a:hover {
+        color: #FFFFFF;
+        padding-left: 6px;
+    }
+    
+    .social-link a {
+        display: inline-block;
+        min-height: 20px;
+        width: 28px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        transition: all .5s ease;
+    }
+    
+    .social-link a:hover {
+        background-color: #00C3FF;
+    }
+    
+    @media(max-width:991px) {
+        .footer-row {
+            text-align: center;
+        }
+        
+        .footer-links {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    
+/*Egregamos el estilo al formulario de la página Contacto*/
+.formcon {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: #e5ffe5; /* Cambia el valor para el color que desees */
+  padding: 60px; /* Agrega un padding para separar el formulario del borde */
+  width: 600px; /* Reducir el ancho del formulario a 600 píxeles */
+  height: 570px;
+  font-size: 20px; /* Cambiar el tamaño del texto a 16 píxeles */
+  margin-left: auto; /* Centrar el formulario horizontalmente */
+  margin-right: auto;
+  border-radius: 20px; /* Agregar un radio de 10px a los bordes */
+  box-shadow: 2px 2px 5px rgba(20, 19, 19, 0.2);
+}
+
+.formcon label {
+  margin-bottom: 8px;
+}
+
+.formcon input {
+  margin-bottom: 20px;
+}
+
+.formcon input[type="submit"] {
+  margin-top: 20px;
+  width: 120px; /* Ajusta el ancho del botón según tus necesidades */
+  border-radius: 5px;
+}
+
+.formcon #mensaje {
+  height: 250px;
+}
+
+
