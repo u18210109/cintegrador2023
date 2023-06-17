@@ -36,8 +36,30 @@
   </ul>
 </nav>
 
-<div class="formvuelo" style="height: 600px">
-    
+<div class="formvuelo mt-5" style="height: 600px">
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputCiudadOrigen">Ciudad de Origen</label>
+                    <input type="text" class="form-control" id="inputCiudadOrigen" placeholder="Origen">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputCiudadDestino">Ciudad de Destino</label>
+                    <input type="text" class="form-control" id="inputCiudadDestino" placeholder="Destino">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputFechaSalida">Fecha de Salida</label>
+                    <input type="date" class="form-control" id="inputFechaSalida">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputFechaRegreso">Fecha de Regreso</label>
+                    <input type="date" class="form-control" id="inputFechaRegreso">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar Vuelos</button>
+        </form>
+    </div>
     
     
     <!-- Archivos JavaScript de Bootstrap -->
